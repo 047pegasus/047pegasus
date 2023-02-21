@@ -1,8 +1,12 @@
-<h1 align="center">Hi 👋, I'm Tanishq Agarwal(047pegasus)</h1>
-
+<p align="center">
+ <img alt="047pegasus" src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=500&width=435&center=true&lines=Hello+community%F0%9F%91%8B+I+am+Tanishq.+;I+ refer+my+identity+as+047pegasus+%E2%9A%A1+;I+am+a+developer+by+❤️;" />
+</p>
+<p align="center">
 -------------------
+</p>
+
 &emsp;
-<h3 align="left">Hi 👋, I'm Tanishq Agarwal, Sophomore at JUET. I am a fresher who works in agile environment on several projects as a DevOps Engineer.</h3>
+<h3 align="center">Hi 👋, I'm Tanishq Agarwal, Sophomore at JUET. I am a fresher who works in agile environment on several projects as a DevOps Engineer.</h3>
 &emsp;
 
 -------------------
