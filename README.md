@@ -28,8 +28,8 @@
 <a href="https://twitter.com/intent/follow?screen_name=047pegasus">
     ![Twitter: 047pegasus](https://img.shields.io/twitter/follow/047pegasus?style=social)
 </a>
-<a href="https://www.instagram.com/047pegasus/">
-    ![Instagram: 047pegasus](https://img.shields.io/badge/-047pegasus-000?&logo=Instagram)
+<a href="https://www.instagram.com/047_pegasus/">
+    ![Instagram: 047_pegasus](https://img.shields.io/badge/-047pegasus-000?&logo=Instagram)
 </a>
 <a href="https://github.com/047pegasus">
     ![GitHub: 074pegasus](https://img.shields.io/github/followers/047pegasus?label=follow&style=social)
