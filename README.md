@@ -45,6 +45,8 @@
 ![GO](https://img.shields.io/badge/-GO-000?&logo=Go)
 ![Bash](https://img.shields.io/badge/-Bash-000?&logo=GNU-Bash)
 ![Python](https://img.shields.io/badge/-Python-000?&logo=Python)
+![C++](https://img.shields.io/badge/-C++-000?&logo=C)
+
 ### Frontend development:
 &emsp;
 ![React](https://img.shields.io/badge/-React-000?&logo=React)
@@ -93,11 +95,15 @@
 
 ### 💻 Profile Stats
 
-![047pegasus's GitHub stats](https://github-readme-stats.vercel.app/api?username=047pegasus&theme=radical&show_icons=true)
-[![047pegasus's Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=047pegasus&layout=compact&theme=radical)](https://github.com/047pegasus)
+<p align="center">
+ <img alt="047pegasus's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=047pegasus&theme=radical&show_icons=true" />
+&nbsp 
+ <img alt="047pegasus's Top Langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=047pegasus&layout=compact&theme=radical" />
+</p>
+
 ### 🔥 Streak Stats
 
-[![047pegasus's GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=047pegasus&theme=tokyonight_duo)](https://git.io/streak-stats)
+<p align="center"><img alt="047pegasus's GitHub Streak" src="https://github-readme-streak-stats.herokuapp.com?user=047pegasus&theme=tokyonight_duo" /></p>
 
 ### 📊 Contribution Stats
 
