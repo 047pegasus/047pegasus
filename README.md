@@ -116,9 +116,9 @@
 ### ⚡ Commit Stats
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/047pegasus/047pegasus/blob/output/github-contribution-grid-snake.gif">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/047pegasus/047pegasus/blob/output/github-contribution-grid-snake.gif">
-  <img alt="github-snake" src="https://github.com/047pegasus/047pegasus/blob/output/github-contribution-grid-snake.gif">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/047pegasus/047pegasus/blob/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/047pegasus/047pegasus/blob/output/github-snake-dark.svg">
+  <img alt="github-snake" src="https://github.com/047pegasus/047pegasus/blob/output/github-snake-dark.svg">
 </picture>
 </p>
 
