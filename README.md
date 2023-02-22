@@ -113,6 +113,15 @@
 
 <img alt="047pegasus's Activity Graph" src="https://github-readme-activity-graph.cyclic.app/graph/?username=047pegasus&bg_color=1F222E&color=F8D866&line=F85D7F&point=FFFFFF&hide_border=true" />
 
+### ⚡ Commit Stats
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/047pegasus/047pegasus/blob/output/github-contribution-grid-snake.gif">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/047pegasus/047pegasus/blob/output/github-contribution-grid-snake.gif">
+  <img alt="github-snake" src="https://github.com/047pegasus/047pegasus/blob/output/github-contribution-grid-snake.gif">
+</picture>
+</p>
+
 ------
 Credit: [047pegasus](https://github.com/047pegasus)
 Last Edited on: 21/02/2023
