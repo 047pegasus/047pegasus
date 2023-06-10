@@ -12,7 +12,7 @@
 -------------------
 &emsp;
 
-- 🔭 I’m currently working on [ChatGPT-App](https://https://github.com/047pegasus/chatgpt-app) using Next.js 13, Firebase, Tailwind & Typescript. 
+- 🔭 I’m currently working on [Dock-X] using Python 🐍 and Docker SDK 👨‍💻. 
 - 📚 I'm also doing the [Introduction to DevOps Course](https://www.coursera.org/learn/intro-to-devops?utm_source=mobile&utm_source=link&utm_medium=page_share&utm_content=lih&utm_campaign=card_button), a course aimed at making freshers learn about DevOps and the best practices to adhere while working in agile environments. 
 
 - 🌱 I’m currently learning **GO, LINUX, Microservices, REST API, Cloud Networking**
