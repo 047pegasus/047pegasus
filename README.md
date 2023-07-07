@@ -1,12 +1,38 @@
 <p align="center">
  <img alt="047pegasus" src="https://github.com/047pegasus/047pegasus/blob/baf3745efda2ab45bfd9f6834f423981943d6a84/.github/Flow%201%401x-60fps.gif" />
 </p>
-<p align="center">
--------------------
+
+<p align="left">Hi 👋 everyone. I'm <b>Tanishq Agarwal</b>, and I'm a preplacement year student at JUET. I am a <b>Golang enthusiast</b> who likes working in an agile environment on projects and I love building stuff with <b>Go</b>. I am proficient in various other tools and frameworks in the DevOps industry and I love working with them. Take a look at them below.<br/>
+I’m currently working on <b>Dock-X</b> using Python 🐍 and Docker SDK 👨‍💻. I'm also pursuing the Specialization in Golang Course, a course aimed at making freshers learn about Go and the best practices to adhere while working in Go environments.<br/> 
+I’m currently learning <b>Go, LINUX, Microservices, REST API, Cloud Networking & DevOps.</b> 
 </p>
 
-<p align="left">Hi 👋 everyone. I'm Tanishq Agarwal, and I'm a preplacement year student at JUET. I am a fresher who likes working in an agile environment on projects as a DevOps Engineer and I love building stuff with Go. I’m currently working on Dock-X using Python 🐍 and Docker SDK 👨‍💻. I'm also pursuing the Specialization in Golang Course, a course aimed at making freshers learn about Go and the best practices to adhere while working in Go environments. I’m currently learning Go, LINUX, Microservices, REST API, Cloud Networking & DevOps. 
-</p>
+# Hi there! 👋 I'm 047pegasus
+
+```go
+type Profile struct {
+    Name      string
+    Handle    string
+    Location  string
+    Languages []string
+    Projects  int
+    Stars     int
+    Followers int
+}
+
+func main() {
+    // Constructing the Profile object
+    pegasus := Profile{
+        Name: "Tanishq Agarwal",
+        Handle: "@047pegasus",
+        Location:  "India",
+        Languages: []string{"Golang", "Python", "C++", "C", "Javascript", "bash"},
+        Projects:  3,
+        Stars:     11,
+        Followers: 9,
+    }
+}
+```
 
 -------------------
 
