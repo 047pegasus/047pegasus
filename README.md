@@ -93,7 +93,7 @@ func main() {
 [![GitHub Streak](https://streak-stats.demolab.com?user=047pegasus&theme=vue-dark&card_width=496&fire=EB5454)](https://git.io/streak-stats)
 
 ###  Contribution Stats
-(http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username={username}&theme={theme_name})
+![](https://raw.githubusercontent.com/047pegasus/047pegasus/master/profile-summary-card-output/github_dark/0-profile-details.svg)
 ### ⚡ Commit Stats
 <p align="center">
 <picture>
