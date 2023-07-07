@@ -1,5 +1,5 @@
 <p align="center">
- <img alt="047pegasus" src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=500&width=435&center=true&lines=Hello+community%F0%9F%91%8B+I+am+Tanishq.+;I+ refer+my+identity+as+047pegasus+%E2%9A%A1+;I+am+a+developer+by+❤️;" />
+ <img alt="047pegasus" src="https://github.com/047pegasus/047pegasus/blob/baf3745efda2ab45bfd9f6834f423981943d6a84/.github/Flow%201%401x-60fps.gif" />
 </p>
 <p align="center">
 -------------------
