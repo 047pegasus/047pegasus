@@ -5,27 +5,16 @@
 -------------------
 </p>
 
-&emsp;
-<h3 align="center">Hi 👋, I'm Tanishq Agarwal, Sophomore at JUET. I am a fresher who works in agile environment on several projects as a DevOps Engineer.</h3>
-&emsp;
+<p align="left">Hi 👋 everyone. I'm Tanishq Agarwal, and I'm a preplacement year student at JUET. I am a fresher who likes working in an agile environment on projects as a DevOps Engineer and I love building stuff with Go. I’m currently working on Dock-X using Python 🐍 and Docker SDK 👨‍💻. I'm also pursuing the Specialization in Golang Course, a course aimed at making freshers learn about Go and the best practices to adhere while working in Go environments. I’m currently learning Go, LINUX, Microservices, REST API, Cloud Networking & DevOps. 
+</p>
 
 -------------------
-&emsp;
-
-- 🔭 I’m currently working on [Dock-X] using Python 🐍 and Docker SDK 👨‍💻. 
-- 📚 I'm also doing the [Introduction to DevOps Course](https://www.coursera.org/learn/intro-to-devops?utm_source=mobile&utm_source=link&utm_medium=page_share&utm_content=lih&utm_campaign=card_button), a course aimed at making freshers learn about DevOps and the best practices to adhere while working in agile environments. 
-
-- 🌱 I’m currently learning **GO, LINUX, Microservices, REST API, Cloud Networking**
-
-- 💬 Ask me about **GO, GCP, AWS, Terraform, LINUX **
-
-&emsp;
 
 ## Me around the web:
 -------------------
-
-
+[![My Socials](https://skillicons.dev/icons?i=linkedin,twitter,instagram,github,stackoverflow,devto,discord&perline=11)](https://skillicons.dev)
 &emsp;
+<br/><br/>
 <a href="https://www.linkedin.com/in/tanishq-agarwal047/">
     ![Linkedin: Tanishq Agarwal](https://img.shields.io/badge/-TanishqAgarwal-blue?style=flat-square&logo=Linkedin&logoColor=white)
 </a>
@@ -39,80 +28,46 @@
     ![GitHub: 074pegasus](https://img.shields.io/github/followers/047pegasus?label=follow&style=social)
 </a>
 
-&emsp;
-
 ## 🛠️ My Skills
 -------------------
 ### Programming languages:
 &emsp;
-![JavaScript](https://img.shields.io/badge/-JavaScript-000?&logo=JavaScript)
-![GO](https://img.shields.io/badge/-GO-000?&logo=Go)
-![Bash](https://img.shields.io/badge/-Bash-000?&logo=GNU-Bash)
-![Python](https://img.shields.io/badge/-Python-000?&logo=Python)
-![C++](https://img.shields.io/badge/-C++-000?&logo=C)
+[![My ProgrammingSkills](https://skillicons.dev/icons?i=go,py,cpp,bash,js,c,java,markdown&perline=11)](https://skillicons.dev)
 
-### Frontend development:
+### Dev Stack:
 &emsp;
-![React](https://img.shields.io/badge/-React-000?&logo=React)
-![Redux](https://img.shields.io/badge/-Redux-000?&logo=Redux)
-![Next.js](https://img.shields.io/badge/-Next.js-000?&logo=Next.js)
-![Material-UI](https://img.shields.io/badge/-Material--UI-000?&logo=Material-UI)
-![Chakra UI](https://img.shields.io/badge/-Chakra%20UI-000?&logo=Chakra-UI)
-![SCSS](https://img.shields.io/badge/-SCSS-000?&logo=Sass)
-![CSS](https://img.shields.io/badge/-CSS-000?&logo=CSS3)
-![HTML](https://img.shields.io/badge/-HTML-000?&logo=HTML5)
-### Misc tools:
-&emsp;
-![Git](https://img.shields.io/badge/-Git-000?&logo=Git)
-![GitHub](https://img.shields.io/badge/-GitHub-000?&logo=GitHub)
-![GitLab](https://img.shields.io/badge/-GitLab-000?&logo=GitLab)
-![Docker](https://img.shields.io/badge/-Docker-000?&logo=Docker)
-![Jira](https://img.shields.io/badge/-Jira-000?&logo=Jira)
-![VS Code](https://img.shields.io/badge/-VS%20Code-000?&logo=Visual-Studio-Code)
-![Postman](https://img.shields.io/badge/-Postman-000?&logo=Postman)
+[![My Stack](https://skillicons.dev/icons?i=react,redux,svelte,next,nodejs,supabase,tailwind,materialui,electron,css,scss,html)](https://skillicons.dev)
 
-### Services & Frameworks: 
+### Tool Stack:
 &emsp;
-![Hasura](https://img.shields.io/badge/-Hasura-000?&logo=Hasura)
-![Auth0](https://img.shields.io/badge/-Auth0-000?&logo=Auth0)
-![Serverless](https://img.shields.io/badge/-Serverless-000?&logo=Serverless)
-
+[![My Tools](https://skillicons.dev/icons?i=git,github,gitlab,firebase,docker,gradle,cmake,vscode,postman,powershell,netlify,androidstudio,arduino,replit,figma,ps,xd)](https://skillicons.dev)
 
 ### Databases:
 &emsp;
-![MongoDB](https://img.shields.io/badge/-MongoDB-000?&logo=MongoDB)
-![MySQL](https://img.shields.io/badge/-MySQL-000?&logo=MySQL)
-![SQLite](https://img.shields.io/badge/-SQLite-000?&logo=SQLite)
+[![My Frameworks](https://skillicons.dev/icons?i=postgres,mysql,sqlite,redis,mongo&perline=11)](https://skillicons.dev)
 
 ### SRE & DevOps:
 &emsp;
-![AWS](https://img.shields.io/badge/-AWS-000?&logo=Amazon-AWS)
-![Azure](https://img.shields.io/badge/-Azure-000?&logo=Microsoft-Azure)
-![Terraform](https://img.shields.io/badge/-Terraform-000?&logo=Terraform)
-![Kubernetes](https://img.shields.io/badge/-Kubernetes-000?&logo=Kubernetes)
-![Nginx](https://img.shields.io/badge/-Nginx-000?&logo=Nginx)
-
+[![My Frameworks](https://skillicons.dev/icons?i=linux,grafana,prometheus,jenkins,githubactions,kafka,docker,kubernetes,gcp,aws,azure,nginx,ansible&perline=15)](https://skillicons.dev)
 
 &emsp;
 
-## 📈 My GitHub Stats and Activity
+## 💻📊🔥 Statistics and Activity
 
-### 💻 Profile Stats
+###  Profile Stats
 
-<p align="center">
- <img alt="047pegasus's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=047pegasus&theme=radical&show_icons=true" />
-&nbsp 
- <img alt="047pegasus's Top Langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=047pegasus&layout=compact&theme=radical" />
+<p align="left">
+ <img alt="047pegasus's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=047pegasus&theme=cobalt&show_icons=true&rank_icon=github&include_all_commits=true" />
+&nbsp; 
+ <img alt="047pegasus's Top Langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=047pegasus&layout=compact&theme=cobalt" />
 </p>
 
-### 🔥 Streak Stats
+###  Streak Stats
 
-<p align="center"><img alt="047pegasus's GitHub Streak" src="https://github-readme-streak-stats.herokuapp.com?user=047pegasus&theme=tokyonight_duo" /></p>
+[![GitHub Streak](https://streak-stats.demolab.com?user=047pegasus&theme=vue-dark&card_width=496&fire=EB5454)](https://git.io/streak-stats)
 
-### 📊 Contribution Stats
-
-<img alt="047pegasus's Activity Graph" src="https://github-readme-activity-graph.cyclic.app/graph/?username=047pegasus&bg_color=1F222E&color=F8D866&line=F85D7F&point=FFFFFF&hide_border=true" />
-
+###  Contribution Stats
+(http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username={username}&theme={theme_name})
 ### ⚡ Commit Stats
 <p align="center">
 <picture>
