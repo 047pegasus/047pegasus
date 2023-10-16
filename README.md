@@ -103,6 +103,13 @@ func main() {
 </picture>
 </p>
 
+<br>
+
+[![An image of @047pegasus's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/047pegasus)](https://holopin.io/@047pegasus)
+
+<br>
+
 ------
+
 Credit: [047pegasus](https://github.com/047pegasus)
-Last Edited on: 21/02/2023
+Last Edited on: 16/10/2023
