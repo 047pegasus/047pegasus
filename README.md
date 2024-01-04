@@ -2,9 +2,12 @@
  <img alt="047pegasus" src="https://github.com/047pegasus/047pegasus/blob/baf3745efda2ab45bfd9f6834f423981943d6a84/.github/Flow%201%401x-60fps.gif" />
 </p>
 
-<p align="left">Hi 👋 everyone. I'm <b>Tanishq Agarwal</b>, and I'm a preplacement year student at JUET. I am a <b>Golang enthusiast</b> who likes working in an agile environment on projects and I love building stuff with <b>Go</b>. I am proficient in various other tools and frameworks in the DevOps industry and I love working with them. Take a look at them below.<br/>
-I’m currently working on <b>Dock-X</b> using Python 🐍 and Docker SDK 👨‍💻. I'm also pursuing the Specialization in Golang Course, a course aimed at making freshers learn about Go and the best practices to adhere while working in Go environments.<br/> 
-I’m currently learning <b>Go, LINUX, Microservices, REST API, Cloud Networking & DevOps.</b> 
+<p align="left"><aside>
+💡 Hi 👋 everyone. I'm Tanishq Agarwal , and I'm a pre-final year student at JUET. I am a Golang enthusiast who likes working in an agile environment on projects and I love building stuff with Go. I am proficient in various other tools and frameworks in the DevOps industry and I love working with them. Take a look at them below. I’m currently working on Zephyr using Go and ORMs like MUX 👨‍💻. I'm also an ex-intern at Trustique Assist Ovt Ltd., where I had the privillage to develop a backend for the enterprise from scratch  and deploy it securely. I am excited to join a new organization and bring the difference to them as well.
+
+I’m currently learning **Microservices, Hono, Cloud Networking & DevOps.**
+
+</aside> 
 </p>
 
 # Hi there! 👋 I'm 047pegasus
