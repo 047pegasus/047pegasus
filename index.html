@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Conway's Game of Life — WASM</title>
+<style>
+  :root {
+    --bg: #191a21;
+    --panel: #21222c;
+    --border: #44475a;
+    --accent: #50fa7b;
+    --accent2: #bd93f9;
+    --text: #f8f8f2;
+    --muted: #6272a4;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'SF Mono', 'Fira Code', Consolas, Menlo, monospace;
+  }
+  .titlebar {
+    display: flex; align-items: center; gap: 8px;
+    background: var(--panel);
+    border-bottom: 1px solid var(--border);
+    padding: 10px 16px;
+  }
+  .dot { width: 12px; height: 12px; border-radius: 50%; }
+  .dot.red { background: #ff5f56; }
+  .dot.yellow { background: #ffbd2e; }
+  .dot.green { background: #27c93f; }
+  .tabname { margin-left: 12px; color: var(--muted); font-size: 13px; }
+  main {
+    max-width: 1100px;
+    margin: 24px auto;
+    padding: 0 16px 40px;
+  }
+  h1 { font-size: 20px; margin: 8px 0 4px; }
+  p.sub { color: var(--muted); margin: 0 0 20px; font-size: 14px; }
+  #canvas-wrap {
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+    background: #000;
+  }
+  canvas.emscripten {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1320 / 840;
+    outline: none;
+  }
+  #status {
+    padding: 8px 14px;
+    background: var(--accent2);
+    color: #21222c;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  #loading {
+    padding: 40px;
+    text-align: center;
+    color: var(--muted);
+    font-size: 13px;
+  }
+  .back {
+    display: inline-block;
+    margin-top: 20px;
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 13px;
+  }
+  .back:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+
+  <div class="titlebar">
+    <div class="dot red"></div>
+    <div class="dot yellow"></div>
+    <div class="dot green"></div>
+    <div class="tabname">~/047pegasus/game_of_life.wasm</div>
+  </div>
+
+  <main>
+    <h1>Conway's Game of Life</h1>
+    <p class="sub">C++ / SDL2, compiled to WebAssembly with Emscripten. Left-drag to draw, right-drag to pan, wheel to zoom, pick a pattern from the sidebar to stamp it.</p>
+
+    <div id="canvas-wrap">
+      <div id="status">-- LOADING --</div>
+      <canvas class="emscripten" id="canvas" tabindex="-1"></canvas>
+      <div id="loading" style="display:none;">Loading WebAssembly module…</div>
+    </div>
+
+    <a class="back" href="https://github.com/047pegasus">&larr; back to github.com/047pegasus</a>
+  </main>
+
+<script>
+  var statusEl = document.getElementById('status');
+  var Module = {
+    canvas: document.getElementById('canvas'),
+    print: function(text) { console.log(text); },
+    printErr: function(text) { console.error(text); },
+    setStatus: function(text) {
+      if (!text) { statusEl.textContent = '-- RUNNING --'; return; }
+      statusEl.textContent = text;
+    },
+    onRuntimeInitialized: function() {
+      statusEl.textContent = '-- RUNNING --';
+    }
+  };
+  window.onerror = function() {
+    statusEl.textContent = '-- ERROR (see console) --';
+  };
+</script>
+<script async src="game.js"></script>
+</body>
+</html>
