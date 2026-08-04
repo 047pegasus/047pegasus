@@ -47,11 +47,11 @@ func main() {
 
 ## Projects I want to mention
 
-**[isCache](https://github.com/047pegasus)** — A production-grade distributed in-memory caching library for Python, supporting LRU/LFU/TTL eviction, consistent hashing, and automatic failover. Available via `pip install iscache`.
+**[isCache](https://github.com/047pegasus/iscache)** — A production-grade distributed in-memory caching library for Python, supporting LRU/LFU/TTL eviction, consistent hashing, and automatic failover. Available via `pip install iscache`.
 
 **[Synapse](https://synapse.ez.works/)** - An intelligent sales automation platform with support for outreach workflow builder, scheduling and multi vendor prospect ingestion.
 
-**Order-Delivery Service** — Event-driven order-rider matching service using Redis channels and Kafka for real-time analytics and delivery routing.
+**[Order-Delivery Service](https://github.com/047pegasus/rider-service)** — Event-driven order-rider matching service using Redis channels and Kafka for real-time analytics and delivery routing.
 
 ---
 
