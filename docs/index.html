@@ -6,10 +6,8 @@
 <title>Conway's Game of Life — WASM</title>
 <style>
   :root {
-    --bg: #191a21;
     --panel: #21222c;
     --border: #44475a;
-    --accent: #50fa7b;
     --accent2: #bd93f9;
     --text: #f8f8f2;
     --muted: #6272a4;
@@ -17,7 +15,9 @@
   * { box-sizing: border-box; }
   html, body {
     margin: 0; padding: 0;
-    background: var(--bg);
+    width: 100%; height: 100%;
+    overflow: hidden;
+    background: #000;
     color: var(--text);
     font-family: 'SF Mono', 'Fira Code', Consolas, Menlo, monospace;
   }
@@ -26,53 +26,42 @@
     background: var(--panel);
     border-bottom: 1px solid var(--border);
     padding: 10px 16px;
+    position: relative;
+    z-index: 2;
   }
   .dot { width: 12px; height: 12px; border-radius: 50%; }
   .dot.red { background: #ff5f56; }
   .dot.yellow { background: #ffbd2e; }
   .dot.green { background: #27c93f; }
   .tabname { margin-left: 12px; color: var(--muted); font-size: 13px; }
-  main {
-    max-width: 1100px;
-    margin: 24px auto;
-    padding: 0 16px 40px;
+  #status {
+    margin-left: auto;
+    padding: 3px 10px;
+    background: var(--accent2);
+    color: #21222c;
+    font-size: 11px;
+    font-weight: bold;
+    border-radius: 4px;
   }
-  h1 { font-size: 20px; margin: 8px 0 4px; }
-  p.sub { color: var(--muted); margin: 0 0 20px; font-size: 14px; }
-  #canvas-wrap {
-    border: 1px solid var(--border);
-    border-radius: 10px;
-    overflow: hidden;
+  #stage {
+    position: relative;
+    width: 100%;
+    height: calc(100% - 41px);
     background: #000;
   }
   canvas.emscripten {
     display: block;
     width: 100%;
-    height: auto;
-    aspect-ratio: 1320 / 840;
+    height: 100%;
     outline: none;
   }
-  #status {
-    padding: 8px 14px;
-    background: var(--accent2);
-    color: #21222c;
-    font-size: 12px;
-    font-weight: bold;
+  #errbox {
+    display: none;
+    position: absolute; top: 12px; left: 12px; right: 12px;
+    background: #ff5f56; color: #21222c;
+    font-size: 12px; padding: 10px 12px; border-radius: 6px;
+    z-index: 3; white-space: pre-wrap;
   }
-  #loading {
-    padding: 40px;
-    text-align: center;
-    color: var(--muted);
-    font-size: 13px;
-  }
-  .back {
-    display: inline-block;
-    margin-top: 20px;
-    color: var(--accent);
-    text-decoration: none;
-    font-size: 13px;
-  }
-  .back:hover { text-decoration: underline; }
 </style>
 </head>
 <body>
@@ -82,37 +71,59 @@
     <div class="dot yellow"></div>
     <div class="dot green"></div>
     <div class="tabname">~/047pegasus/game_of_life.wasm</div>
+    <div id="status">-- LOADING --</div>
   </div>
 
-  <main>
-    <h1>Conway's Game of Life</h1>
-    <p class="sub">C++ / SDL2, compiled to WebAssembly with Emscripten. Left-drag to draw, right-drag to pan, wheel to zoom, pick a pattern from the sidebar to stamp it.</p>
-
-    <div id="canvas-wrap">
-      <div id="status">-- LOADING --</div>
-      <canvas class="emscripten" id="canvas" tabindex="-1"></canvas>
-      <div id="loading" style="display:none;">Loading WebAssembly module…</div>
-    </div>
-
-    <a class="back" href="https://github.com/047pegasus">&larr; back to github.com/047pegasus</a>
-  </main>
+  <div id="stage">
+    <div id="errbox"></div>
+    <canvas class="emscripten" id="canvas" tabindex="-1"></canvas>
+  </div>
 
 <script>
   var statusEl = document.getElementById('status');
+  var errEl = document.getElementById('errbox');
+  var canvas = document.getElementById('canvas');
+
+  function showError(msg) {
+    errEl.style.display = 'block';
+    errEl.textContent = msg;
+    statusEl.textContent = '-- ERROR --';
+  }
+
+  // Keep the actual pixel backing store matched to the CSS box + devicePixelRatio,
+  // so SDL's internal window size (read every frame via SDL_GetWindowSize) tracks
+  // the real available space and the app's own layout() call resizes the UI to fit.
+  function syncCanvasSize() {
+    var rect = canvas.getBoundingClientRect();
+    var dpr = window.devicePixelRatio || 1;
+    var w = Math.max(1, Math.round(rect.width * dpr));
+    var h = Math.max(1, Math.round(rect.height * dpr));
+    if (canvas.width !== w || canvas.height !== h) {
+      canvas.width = w;
+      canvas.height = h;
+    }
+  }
+  window.addEventListener('resize', syncCanvasSize);
+  syncCanvasSize();
+
   var Module = {
-    canvas: document.getElementById('canvas'),
-    print: function(text) { console.log(text); },
-    printErr: function(text) { console.error(text); },
+    canvas: canvas,
+    print: function(text) { console.log('[gol]', text); },
+    printErr: function(text) {
+      console.error('[gol]', text);
+      showError(String(text));
+    },
     setStatus: function(text) {
       if (!text) { statusEl.textContent = '-- RUNNING --'; return; }
       statusEl.textContent = text;
     },
     onRuntimeInitialized: function() {
       statusEl.textContent = '-- RUNNING --';
+      syncCanvasSize();
     }
   };
-  window.onerror = function() {
-    statusEl.textContent = '-- ERROR (see console) --';
+  window.onerror = function(msg) {
+    showError(String(msg));
   };
 </script>
 <script async src="game.js"></script>
