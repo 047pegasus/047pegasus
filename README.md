@@ -69,6 +69,12 @@ I try to keep it going, usally :)
 
 ---
 
+## Come play something I built ;)
+
+<p align="center"> <a href="https://047pegasus.github.io/047pegasus/"> <img src="https://img.shields.io/badge/%E2%96%B6%20PLAY%20LIVE-game--of--life.wasm-50fa7b?style=for-the-badge&labelColor=21222c" alt="Play Game of Life"/> </a> </p>
+
+---
+
 ## Connect with me here I reply quick mostly :p
 
 <p align="left">
