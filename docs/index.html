@@ -106,7 +106,7 @@
   window.addEventListener('resize', syncCanvasSize);
   syncCanvasSize();
 
-  var Module = {
+  var ModuleConfig = {
     canvas: canvas,
     print: function(text) { console.log('[gol]', text); },
     printErr: function(text) {
@@ -126,6 +126,11 @@
     showError(String(msg));
   };
 </script>
-<script async src="game.js"></script>
+<script src="game.js"></script>
+<script>
+  createGolModule(ModuleConfig).catch(function(e) {
+    showError('Failed to start: ' + e);
+  });
+</script>
 </body>
 </html>
