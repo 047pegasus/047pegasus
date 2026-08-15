@@ -57,7 +57,9 @@ func main() {
 
 ## My Stats
 
-I try to keep it going, usally :)
+I try to keep it going, usally :) 
+
+[![pages-build-deployment](https://github.com/047pegasus/047pegasus/actions/workflows/pages/pages-build-deployment/badge.svg?branch=master)](https://github.com/047pegasus/047pegasus/actions/workflows/pages/pages-build-deployment)
 
 <p align="center">
 <picture>
